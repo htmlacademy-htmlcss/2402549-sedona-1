@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
@@ -12,16 +13,14 @@
             <div class="logo">
               <img src="#" alt="logo" />
             </div>
-
             <nav class="header-navigation">
               <ul>
-                <li><a href="/">Главная</a></li>
+                <li><a href="#">Главная</a></li>
                 <li><a href="#">О седоне</a></li>
-                <li><a href="/catalog">Гостиницы</a></li>
+                <li><a href="/catalog.html">Гостиницы</a></li>
               </ul>
             </nav>
           </div>
-
           <div class="header-right">
             <nav class="header-navigation">
               <ul>
@@ -30,11 +29,10 @@
                     <span class="visually-hidden">Поиск</span>
                   </a>
                 </li>
-
                 <li>
                   <a href="#">
-                    <span class="visually-hidden">лайк</span>
-                    <small> 12 </small>
+                    <span class="visually-hidden">Избранное</span>
+                    <span> 12 </span>
                   </a>
                 </li>
                 <li><a href="#">Хочу сюда</a></li>
@@ -43,7 +41,6 @@
           </div>
         </div>
       </header>
-
       <main class="main-index">
         <img class="logo" src="#" alt="логотип" />
         <h1 class="visually-hidden">Гостиницы Седоны</h1>
@@ -55,11 +52,12 @@
               <option>Сначала средние</option>
               <option>Сначала дорогие</option>
             </select>
-            <button class="view-1"></button>
-            <button class="view-2"></button>
-            <button class="view-3"></button>
+            <div class="catalog-views">
+              <button title="view-1">view-1</button>
+              <button title="view-2">view-2</button>
+              <button title="view-3">view-3</button>
+            </div>
           </div>
-
           <div class="catalog-list">
             <div class="catalog-item">
               <img class="catalog-img" src="#" alt="Пещера" />
@@ -73,7 +71,6 @@
                 <span class="title">рейтинг:8.5</span>
               </div>
             </div>
-
             <div class="catalog-item">
               <img class="catalog-img" src="#" alt="Скалы на фоне радуги" />
               <h3 class="catalog-title">Villas at Poco Diablo</h3>
@@ -86,7 +83,6 @@
                 <span class="title">рейтинг:9.2</span>
               </div>
             </div>
-
             <div class="catalog-item">
               <img class="catalog-img" src="#" alt="Гора" />
               <h3 class="catalog-title">Desert Quail Inn</h3>
@@ -99,7 +95,6 @@
                 <span class="title">рейтинг:6.9</span>
               </div>
             </div>
-
             <div class="catalog-item">
               <img class="catalog-img" src="#" alt="Скалы под звездным небом" />
               <h3 class="catalog-title">GreenTree Inn</h3>
@@ -113,10 +108,8 @@
               </div>
             </div>
           </div>
-
-
           <div class="pagination">
-            <button type="button">1</button>
+            <button type="button" title="page 1">1</button>
             <button type="button">2</button>
             <button type="button">3</button>
             <button type="button">4</button>
@@ -153,15 +146,12 @@
             </a>
           </li>
         </ul>
-        <h2 class="footer-contacts">
-          <a class="footer-contacts-address-phone" href="tel:+78005558628"
-            >+7 800 555-86-28</a
-          >
-        </h2>
-
-        <a class="htmlacademy-link" href="https://htmlacademy.ru/"
-          ><img class="logo" src="#" alt="htmlacademy"
-        /></a>
+        <a class="footer-contacts-address-phone" href="tel:+78005558628">
+          +7 800 555-86-28
+        </a>
+        <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+          ссылка на html.academy <img class="logo" src="#" alt="htmlacademy" />
+        </a>
       </footer>
     </div>
   </body>
