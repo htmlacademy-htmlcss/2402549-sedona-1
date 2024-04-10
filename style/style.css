@@ -1,0 +1,64 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.container {
+  background-color: #fff;
+  width: 1200px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 64px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1060px;
+}
+.header-left,
+.header-right {
+  display: flex;
+}
+.header-navigation ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  /* padding: 0; */
+  gap: 15px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 160px;
+  height: 36px;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #756157;
+  color: #fff;
+}
+
+.subscribe {
+  background-size: cover;
+}
+
+.footer-social-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
